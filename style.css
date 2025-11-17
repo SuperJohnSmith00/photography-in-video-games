@@ -1,9 +1,4 @@
 body{
-    background:CornflowerBlue;
-    font-family: "Bungee Spice", sans-serif;font-size: 18px;
-}
-.bungee-spice-regular {
-  font-family: "Bungee Spice", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    background:coral;
+     font-family: "Google Sans Flex", sans-serif;font-optical-sizing: auto;font-size: 18px;
 }
