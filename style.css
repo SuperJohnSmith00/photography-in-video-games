@@ -2,6 +2,10 @@ body{
     background:coral; font-family: "Google Sans Flex", sans-serif; font-optical-sizing: auto; font-weight: 400; font-style: normal;
 }
 
+#modern{
+    background:white
+}
+
 #carousel{
     color:aqua
 }
