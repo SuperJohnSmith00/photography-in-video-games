@@ -15,5 +15,6 @@ body{
 }
 
 #sr-only{
-    color:rgb(251, 255, 0)
+    color:rgb(251, 255, 0);
+    background-color: rgb(255, 255, 255);
 }
