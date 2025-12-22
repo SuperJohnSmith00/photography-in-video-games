@@ -18,3 +18,11 @@ body{
     color:rgb(251, 255, 0);
     background-color: rgb(255, 255, 255);
 }
+
+#archive{
+ background-color:blueviolet ;
+}
+
+#landing{
+    background-color: wheat;
+}
