@@ -14,7 +14,7 @@ body{
     background:lightseagreen
 }
 
-#sr-only{
+.sr-only{
     color:rgb(251, 255, 0);
     background-color: rgb(255, 255, 255);
 }
