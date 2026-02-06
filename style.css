@@ -26,6 +26,10 @@ body{
     background-color: wheat;
 }
 
+audio{
+    width: 500px; height: 50px
+}
+
 a:link {
   color: rgb(85, 255, 79);
   background-color: transparent;
