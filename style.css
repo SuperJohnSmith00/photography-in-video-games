@@ -3,15 +3,15 @@ body{
 }
 
 #modern{
-    background:khaki
+    background:khaki;
 }
 
 #recomm{
-    background:indianred
+    background:indianred;
 }
 
 #real{
-    background:lightseagreen
+    background:lightseagreen;
 }
 
 .sr-only{
@@ -25,6 +25,7 @@ body{
 #landing{
     background-color: wheat;
 }
+
 a:link {
   color: rgb(85, 255, 79);
   background-color: transparent;
