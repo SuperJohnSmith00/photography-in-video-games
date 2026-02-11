@@ -1,5 +1,5 @@
 body{
-    background:coral; font-family: "Google Sans Flex", sans-serif; font-optical-sizing: auto; font-weight: 400; font-style: normal; color:black
+    background:steelblue; font-family: "Google Sans Flex", sans-serif; font-optical-sizing: auto; font-weight: 400; font-style: normal; color:black
 }
 
 #modern{
@@ -7,7 +7,7 @@ body{
 }
 
 #recomm{
-    background:indianred;
+    background:MediumAquaMarine;
 }
 
 #real{
@@ -31,5 +31,5 @@ audio{
 }
 
 #links{
-    color:orange;
+    color:white;
 }
