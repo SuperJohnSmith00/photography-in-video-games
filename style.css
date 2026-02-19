@@ -29,3 +29,7 @@ body{
 audio{
     width: 250px; height: 55px
 }
+
+#links{
+    color: black;
+}
