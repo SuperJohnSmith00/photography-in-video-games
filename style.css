@@ -33,3 +33,16 @@ audio{
 #links{
     color: black;
 }
+
+.LeftToRight{
+    animation: LeftToRight 10s infinite linear
+}
+
+@keyframes LeftToRight{
+    from {
+        transform: translateX(-50%)
+    }
+    to {
+        transform: translateX(0%)
+    }
+}
