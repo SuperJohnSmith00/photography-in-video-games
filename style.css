@@ -34,8 +34,8 @@ audio{
     color: black;
 }
 
-.LeftToRight{
-    animation: LeftToRight 10s infinite linear
+.RightToLeft{
+    animation: RightToLeft infinite linear
 }
 
 @keyframes LeftToRight{
