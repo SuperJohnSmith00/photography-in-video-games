@@ -35,10 +35,10 @@ audio{
 }
 
 .RightToLeft{
-    animation: RightToLeft infinite linear
+    animation: RightToLeft; animation-iteration-count: infinite; infinite linear
 }
 
-@keyframes RightToLeftt{
+@keyframes RightToLeft{
     from {
         transform: translateX(0%)
     }
