@@ -33,16 +33,3 @@ audio{
 #links{
     color: black;
 }
-
-.RightToLeft{
-    animation: RightToLeft; animation-iteration-count: infinite; infinite linear
-}
-
-@keyframes RightToLeft{
-    from {
-        transform: translateX(0%)
-    }
-    to {
-        transform: translateX(50%)
-    }
-}
