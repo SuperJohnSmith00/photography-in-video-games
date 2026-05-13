@@ -26,6 +26,10 @@ body{
     background-color: wheat;
 }
 
+#blog{
+    background-color:cornflowerblue
+}
+
 audio{
     width: 250px; height: 55px
 }
