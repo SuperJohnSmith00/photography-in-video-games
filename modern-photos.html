@@ -10,6 +10,24 @@
 
   gtag('config', 'G-F7L7R97PZF');
 </script>
+<script>
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+var span = document.getElementsByClassName("close")[0];
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+
 <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -201,9 +219,13 @@
 </div>
 			<br>
 			<h3>Week 26</h3>
-			<a href="https://codehs.com/uploads/84807900ca519931edb13c40c1d360e3" target="_blank">
-				<img src="https://codehs.com/uploads/92dab0c155f09548e1b062ed2bce25f1" alt="Legend of Zelda Breath of the Wild">
-			</a>
+			<img id="myImg" src="https://codehs.com/uploads/92dab0c155f09548e1b062ed2bce25f1" alt="Legend of Zelda Breath of the Wild" style="width:100%;max-width:300px">
+			<div id="myModal" class="modal">
+  			<span class="close">&times;</span>
+  			<img class="modal-content" id="img">
+  			<div id="caption"></div>
+			</div>
+
 			<br>
 			<br>
 			<br>
