@@ -208,12 +208,9 @@
 			<br>
 			<br>
 			<h3>Week 25</h3>
-			<img id="ThraggImg" src="https://codehs.com/uploads/be74278595213b735e9e8263ca591277" alt="Thragg and Ryland Grace" style="width:100%;max-width:300px">
-			<div id="ThraggModal" class="modal">
-  			<span class="close">&times;</span>
-  			<img class="modal-content" id="Thragg">
-  			<div id="Thraggcaption"></div>
-			</div>
+			<a href="https://codehs.com/uploads/31bd6225c3805680f13a66c8a454a48a">
+			<img id="ThraggImg" src="https://codehs.com/uploads/be74278595213b735e9e8263ca591277" alt="Thragg and Ryland Grace">
+			</a>
 			<br>
 			<br>
 			<br>
@@ -254,20 +251,6 @@ var modal = document.getElementById("myModal");
 var img = document.getElementById("myImg");
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
-img.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
-}
-var span = document.getElementsByClassName("close")[0];
-span.onclick = function() { 
-  modal.style.display = "none";
-}
-
-var modal = document.getElementById("ThraggModal");
-var img = document.getElementById("ThraggImg");
-var modalImg = document.getElementById("Thragg");
-var captionText = document.getElementById("Thraggcaption");
 img.onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
